@@ -1,0 +1,110 @@
+header {
+  min-height: 70px;
+}
+
+header .narbar-logo {
+  width: 70px;
+}
+
+header .narbar-logo img {
+  width: 100%;
+}
+
+main .nav-pills .nav-item {
+  margin-right: 10px;
+}
+
+main .nav-pills .nav-item .nav-link {
+  background-color: #73ceed;
+  color: black;
+}
+
+.main {
+  min-height: 900px;
+}
+
+.main__content__fixed {
+  min-height: 100px;
+  position: fixed;
+  top: 160px;
+  left: 7%;
+}
+
+.main__content__fixed .list-brand {
+  display: none;
+}
+
+.main__content__fixed .list-brand__item {
+  width: 100px;
+  min-height: 85px;
+  padding: 5px;
+  border: 3px solid #73ceed;
+  margin-bottom: 3px;
+}
+
+.main__content__fixed .list-brand__item:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.main__content__fixed .list-brand__item:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.main__content__fixed .list-brand__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.main__content__fixed .list-brand__link span {
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+.main__content__fixed .list-brand__link img {
+  width: 60%;
+  height: 60%;
+}
+
+.main__content__fixed .selected {
+  display: block;
+}
+
+.main__content__posts {
+  width: 85%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.main__content__posts .content {
+  background-color: lightgrey;
+}
+
+.main__content__posts .content h3,
+.main__content__posts .content p {
+  text-align: center;
+}
+
+.main__content__sidebar {
+  background-color: black;
+  color: white;
+  min-height: 200px;
+}
+
+.main .tab-content {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

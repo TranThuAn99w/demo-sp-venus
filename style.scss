@@ -1,0 +1,88 @@
+header {
+  min-height: 70px;
+  .narbar-logo {
+    width: 70px;
+    img {
+      width: 100%;
+    }
+  }
+}
+main {
+  .nav-pills {
+    .nav-item {
+      margin-right: 10px;
+      .nav-link {
+        background-color: #73ceed;
+        color: black;
+      }
+    }
+  }
+}
+.main {
+  min-height: 900px;
+  &__content {
+    &__fixed {
+      min-height: 100px;
+      position: fixed;
+      top: 160px;
+      left: 7%;
+      .list-brand {
+        display: none;
+        &__item {
+          width: 100px;
+          min-height: 85px;
+          padding: 5px;
+          border: 3px solid #73ceed;
+          margin-bottom: 3px;
+          &:first-child {
+            border-radius: 5px 5px 0 0;
+          }
+          &:last-child {
+            border-radius: 0 0 5px 5px;
+          }
+        }
+        &__link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          span {
+            color: black;
+            font-weight: 700;
+            font-size: 12px;
+            text-align: center;
+          }
+          img {
+            width: 60%;
+            height: 60%;
+          }
+        }
+      }
+      .selected {
+        display: block;
+      }
+    }
+    &__posts {
+      width: 85%;
+      min-height: 100vh;
+      margin: auto;
+      .content {
+        background-color: lightgrey;
+        h3,
+        p {
+          text-align: center;
+        }
+      }
+    }
+    &__sidebar {
+      background-color: black;
+      color: white;
+      min-height: 200px;
+    }
+  }
+  // index
+  .tab-content {
+    background-color: black;
+  }
+}

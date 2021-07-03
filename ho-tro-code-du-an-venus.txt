@@ -1,0 +1,10 @@
+- Có 2 phần
+--Phần 1: Danh mục
+	Thêm danh mục vào bên trái: Có 3 danh mục chính
+		+ Viêm xoang, viêm mũi dị ứng: icon-phân loại, 
+icon-điều trị.
+		+ Giảm cân: icon-phương pháp, icon-chế độ ăn, 
+icon- thực phẩm, icon- tập luyện, icon-viên uống
+		+ Nội tiết tố: icon-biểu hiện, icon-điều trị
+	Khi vào 1 bài liên quan đến mục cha 
+thì các mục con sẽ show ra
